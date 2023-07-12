@@ -1,0 +1,31 @@
+What is machine learning?
+
+Ai is an area of CS where the goal is to simulate Human behaviour
+ML is a subet of AI that tries to solve a specific problem and makr precitions
+
+TYPES:
+*1. Supervised learning: labelled inputs (input has a direct output) to train models and learn outputs
+*2. Unsupervised learning: unlabelled inputs to learn about patterns in data
+3. Reinforcement learning: an agent learning using rewards or penalties
+
+SUPERVISED LEARNING:
+- Feature vector consists of various inputs 
+    - qualitative = nominal data (no order) -> using one-hot encoding (assgins 1 to correct value)
+        eg. USA = [0,0,1] or ordinal (there is a order)
+    - quantitative = numerical can be continous or discrete
+
+Classification:
+- predict discrete class (binary classification or multiclass classification)
+
+Regression:
+- predict continous values (print a value based on a scale)
+
+Model:
+- break into 3 data sets - training, validation and testing
+- loss = differences between prediction and labels
+    L1loss = |yreal - ypredicted|
+    L2loss = (yreal - ypredicted)^2
+    etc.
+
+
+
